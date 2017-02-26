@@ -15,3 +15,10 @@ this script is written in PowerShell, it is an alpha version.
 There is some change needed to improve performence
 
 I use [System.IO.File]::OpenText instead of get-content (it take too long and using NET object require only few seconds)
+
+
+**TODO**
+
+* change parsing method for better perf 
+* add Edge history
+* Error Control

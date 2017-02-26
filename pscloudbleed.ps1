@@ -13,14 +13,7 @@
     Author       : Olivier Miossec <olivier@omiossec.work>
 #> 
     
-    
-    
-    
-    
-    
-    
-    
-    
+     
     
     function get-cloudFlareTld
     {
@@ -113,10 +106,6 @@
     
 
 
-
-
-
-
     if (!$UserName) {
         $UserName = "$ENV:USERNAME"
     }
@@ -127,8 +116,6 @@
 
 $Path = split-path -parent $MyInvocation.MyCommand.Definition 
 $Path += "\sorted_unique_cf.txt"
-
-
 
 
 
